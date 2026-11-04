@@ -1,9 +1,9 @@
 {
-  "abiSource": "pending-current-source",
+  "abiSource": "runtime-matched-current-source",
   "repo": "dca-bot",
   "brand": "DCABot",
   "summary": "Buy tokens on a funded schedule from a visible liquidity pool. Each execution requires a transaction and respects the minimum output captured when the plan was created.",
-  "address": null,
+  "address": "0x5C046E92a7bBaa06e28c07628f950dEB01fe3351",
   "owner": null,
   "abi": [
     {
