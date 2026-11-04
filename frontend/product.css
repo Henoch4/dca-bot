@@ -44,3 +44,25 @@ body.suite-product button,body.suite-product a{cursor:pointer!important}
 .suite-layout-4 .suite-action{border:0;border-top:2px solid currentColor;border-radius:0;padding:24px 0}
 @media(max-width:600px){.suite-nav{padding:14px 16px;gap:10px}.suite-nav #suite-network{order:3;width:100%;font-size:13px}.suite-workspace{padding:36px 16px}.suite-layout-1 .suite-action{grid-template-columns:1fr}.suite-workspace .suite-values{grid-template-columns:1fr}.suite-values dd{margin-bottom:12px}}
 @media(prefers-reduced-motion:reduce){body.suite-product *,body.suite-product *::before,body.suite-product *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* ==== layout variant: console ==== */
+.su-console .suite-nav{padding:12px clamp(16px,3vw,40px)}
+.su-console .suite-brand{text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-size:15px}
+.su-console .suite-workspace{max-width:1060px;padding-top:48px}
+.su-console #suite-heading{text-transform:uppercase;letter-spacing:-.01em}
+.su-console .suite-workspace section{border-top:1px solid currentColor;padding:26px 0 38px;margin:0}
+.su-console .suite-workspace section:first-of-type{border-top:0;padding-top:8px}
+.su-console #suite-stats{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,1fr);gap:0;overflow-x:auto;border-bottom:1px solid currentColor;padding-bottom:2px}
+.su-console .suite-stat{border-top:0;border-right:1px solid currentColor;padding:12px 16px 2px}
+.su-console .suite-stat:last-child{border-right:0}
+.su-console .suite-stat strong{font-size:20px;font-variant-numeric:tabular-nums}
+.su-console .suite-stat h3{text-transform:uppercase;font-size:10px;letter-spacing:.14em;margin-bottom:4px}
+.su-console #suite-action-grid{grid-template-columns:1fr;gap:0}
+.su-console .suite-action{border:0;border-bottom:1px solid currentColor;border-radius:0;padding:18px 0;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline}
+.su-console .suite-action h3{flex:0 0 auto;font-size:15px;margin:0 0 4px;text-transform:uppercase;letter-spacing:.06em;width:100%}
+.su-console .suite-action .suite-field{flex:1 1 220px}
+.su-console .suite-action button{margin-left:auto}
+.su-console .suite-result{font-variant-numeric:tabular-nums;max-height:220px;overflow:auto}
+.su-console #suite-message{border:0;border-left:3px solid currentColor;border-radius:0;padding:14px 18px}
+@media(max-width:700px){.su-console #suite-stats{grid-auto-flow:row;grid-auto-columns:1fr}.su-console .suite-stat{border-right:0;border-bottom:1px solid currentColor}.su-console .suite-stat:last-child{border-bottom:0}}
+
